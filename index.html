@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%231e1f21%7D.cls-2%7Bfill:%23444746%7D.cls-3%7Bfill:%23a8c7fa%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2'%3E%3Cg id='Logo'%3E%3Crect class='cls-1' width='100' height='100' rx='18'/%3E%3Cpath class='cls-2' d='M65,39H35c-1.66,0-3-1.34-3-3v-2c0-1.66,1.34-3,3-3h30c1.66,0,3,1.34,3,3v2c0,1.66-1.34,3-3,3Z'/%3E%3Cpath class='cls-2' d='M75,69H25c-1.66,0-3-1.34-3-3v-8h56v8c0,1.66-1.34,3-3,3Z'/%3E%3Cpath class='cls-3' d='M50,58c-1.39,0-2.72-1.36-3.83-3.8-1.55-3.39-2.17-5.49-2.17-5.49,0,0-2.1-1.28-5.49-2.83-2.45-1.11-3.8-2.44-3.8-3.83,0-2.07,2.16-4.51,5.88-5.88,3.72-1.37,5.15-1.9,5.15-1.9,0,0,.54-2.1,1.9-5.88,1.37-3.72,3.81-5.88,5.88-5.88s4.51,2.16,5.88,5.88c1.37,3.72,1.9,5.15,1.9,5.15,0,0,1.3-1.28,3.22-2.17,1.92-.89,3.39-1.5,3.39-1.5,0,0,1.28,2.1,2.17,5.49,.89,3.39,1.5,4.9,1.5,4.9,0,0-2.1,.54-5.88,1.9-3.72,1.37-5.15,1.9-5.15,1.9,0,0-.54,2.1-1.9,5.88-1.37,3.72-3.81,5.88-5.88,5.88Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAGForge AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#131314',
+              surface: '#1E1F21',
+              primary: '#A8C7FA',
+              'primary-dark': '#3C65A5',
+              'primary-light': '#D3E3FD',
+              secondary: '#C2C7CE',
+              tertiary: '#4A4A4F',
+              'on-surface': '#E3E6E6',
+              'on-surface-variant': '#C4C7C5',
+              outline: '#444746',
+              'outline-variant': '#303235',
+            },
+            fontFamily: {
+              sans: ['Google Sans', 'Roboto', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-background text-on-surface">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

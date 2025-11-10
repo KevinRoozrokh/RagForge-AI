@@ -1,0 +1,5 @@
+{
+  "name": "RAGForge AI",
+  "description": "Create, manage, and deploy custom AI assistants powered by Google Gemini. Upload your knowledge base and build powerful RAG-powered assistants with a user-friendly interface.",
+  "requestFramePermissions": []
+}
